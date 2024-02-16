@@ -41,6 +41,8 @@ while is_race_on:
         random_distance = random.randint(0, 10)
         turtle.forward(random_distance)
 
+screen.exitonclick()
+
 # # making each tutle individually is not efficient
 
 # v = Turtle(shape= "turtle")
@@ -85,4 +87,6 @@ while is_race_on:
 # r.setpos(-230, -150)
 # r.pendown()
 
-screen.exitonclick()
+# screen.exitonclick()
+
+
